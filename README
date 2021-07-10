@@ -1,0 +1,5 @@
+Wrapper für Nmap/Zenmap
+
+Ein Wrapper für den Nmap/Zenmap Netzwerkscanner, welcher automatisch
+alle verbundenen Netzwerke scannt.
+

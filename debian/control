@@ -1,0 +1,28 @@
+Source: up
+Maintainer: nobody <nobody>
+Build-Depends: debhelper (>= 9), libfile-sharedir-install-perl
+Priority: optional
+Section: net
+Standards-Version: 3.9.8
+
+Package: up
+Architecture: all
+Depends: libconfig-general-perl,
+         libfile-homedir-perl,
+         libfile-sharedir-perl,
+         libgeo-ip-perl,
+         libio-interface-perl,
+         libnet-dns-perl,
+         libnet-netmask-perl,
+         libnet-traceroute-perl,
+         libparse-netstat-perl,
+         libtext-trim-perl,
+         ndiff,
+         zenmap | nmap,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: geoip-database, geoip-database-extra, net-tools
+Suggests: dsniff, mitmproxy, thc-ipv6
+Description: Wrapper around Nmap/Zenmap
+ A wrapper around the Nmap/Zenmap network scanner.
+ It does an aggressive scan to all connected networks.

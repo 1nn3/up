@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Up
+GenericName=Up
+Comment=Does an agressive Nmap scan using Zenmap
+Exec=scan-addresses --nmap-cmd "zenmap --nmap nmap"
+TryExec=scan-addresses
+Icon=example-up
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Application;Network;Security;
+Keywords=network;scan;scanner;IP;security;
